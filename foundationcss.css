@@ -1,0 +1,217 @@
+body {
+    background: linear-gradient(orange, white, orange);
+    background-size: cover;
+}
+
+.top-bar-section ul li.active > a {
+      background: darkorange !important;
+      color: black !important; }
+
+.top-bar-section ul li.active > a:hover {
+        background: #FFFFFF !important;
+        color: darkorange !important; }
+
+.top-bar {
+    height: 5rem !important;
+    line-height: 5rem !important;
+}
+
+.top-bar-section ul li a {
+    font-size: 2em !important;
+    display: inline !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.top-bar .name h1 a {
+    width: auto;
+}
+
+ul {
+    line-height: 50px;
+}
+
+.name a {
+    font-size: 2em !important;
+    margin-top: 5% !important;
+}
+
+.indexcontent {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.footer {
+    margin-top: 200%;
+}
+
+.picture {
+border-top-right-radius:  50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 15px 15px 10px black;
+    margin-bottom: 10%;
+}
+
+.playing {
+transform: rotate(270deg);
+width: 533px;
+height: 400px;
+}
+
+.description {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.curriculum {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.volunteers, .photos {
+    margin-top: 5%;
+}
+
+.teachings {
+    font-size: 1.5em;
+}
+
+fieldset {
+ background-color: black;
+color: orange;
+    width: 50%;
+    margin-top: 8%;
+    border-top-right-radius:  50px;
+    border-bottom-left-radius: 50px;
+    align-content: center;
+ margin-bottom: 5%;
+    font-size: 2em;
+}
+
+fieldset label, fieldset h1 {
+color: orange;
+}
+
+fieldset label {
+    font-size: 1em;
+}
+
+.button {
+    background: black;
+    color: orange;
+}
+
+.teachings {
+    list-style-position: inside;
+}
+
+.about h3, .missionheader h3 {
+    font-size: 3em;
+}
+
+.about p, .about li {
+ font-size: 2em;   
+}
+
+.missioncontent p {
+font-size: 2em;
+}
+
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    margin-left: 40%;
+}
+
+.curriculum h2 {
+    font-size: 3em;
+}
+
+.curriculum h3 {
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+.curriculum p {
+    font-size: 1.5em;
+}
+
+.f-dropdown {
+    background-color: #333333 ;
+    font-size: 1px;
+}
+
+@media only screen and (max-width: 80em) { 
+    .largenav {
+        display: none;
+    }
+    .menu {
+        float: right;
+        margin-right: 30px;
+    }
+    body, .f-dropdown li {
+        font-size: .5em;
+    }
+    .top-bar .name h1{
+        font-size: .75em;
+    }
+    .f-dropdown li {
+        display: list-item;
+    }
+    .menu a {
+        font-size: 2em;
+    }  
+    .top-bar {
+        line-height: .5rem !important;
+    }
+  
+    .clearing-thumbs img {
+        width: 50%;
+        height: 50%;
+    }
+    .picture {
+        width: 50%;
+        height: 50%;
+    }
+    .playing {
+        width: 65%;
+        height: 65%;
+        margin-top: 70px;
+    }
+  
+    .photos .row img{
+        align-content: center;
+    }
+    .menu {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 40em){
+  
+      .picture {
+        width: 50%;
+        height: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .playing {
+        width: 65%;
+        height: 65%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    } 
+    .f-dropdown {
+        font-size: .5px;
+    }
+}
+
+@media only screen and (min-width: 80em) {
+    .menu {
+        display: none;
+    }
+}

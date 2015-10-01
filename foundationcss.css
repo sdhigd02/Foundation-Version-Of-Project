@@ -11,30 +11,7 @@ body {
         background: #FFFFFF !important;
         color: darkorange !important; }
 
-.top-bar {
-    height: 5rem !important;
-    line-height: 5rem !important;
-}
 
-.top-bar-section ul li a {
-    font-size: 2em !important;
-    display: inline !important;
-    padding-top: 5% !important;
-    padding-bottom: 5% !important;
-}
-
-.top-bar .name h1 a {
-    width: auto;
-}
-
-ul {
-    line-height: 50px;
-}
-
-.name a {
-    font-size: 2em !important;
-    margin-top: 5% !important;
-}
 
 .indexcontent {
     text-align: center;
@@ -140,31 +117,11 @@ fieldset {
     font-size: 1.5em;
 }
 
-.f-dropdown {
-    background-color: #333333 ;
-    font-size: 1px;
-}
 
 @media only screen and (max-width: 80em) { 
-    .largenav {
-        display: none;
-    }
-    .menu {
-        float: right;
-        margin-right: 30px;
-    }
-    body, .f-dropdown li {
+    body {
         font-size: .5em;
     }
-    .top-bar .name h1{
-        font-size: .75em;
-    }
-    .f-dropdown li {
-        display: list-item;
-    }
-    .menu a {
-        font-size: 2em;
-    }  
     .top-bar {
         line-height: .5rem !important;
     }
@@ -183,11 +140,8 @@ fieldset {
         margin-top: 70px;
     }
   
-    .photos .row img{
-        align-content: center;
-    }
-    .menu {
-        margin-top: 30px !important;
+    .photos{
+        margin: auto;
     }
 }
 
@@ -205,13 +159,15 @@ fieldset {
         margin-top: 20%;
         margin-bottom: 10%;
     } 
-    .f-dropdown {
-        font-size: .5px;
-    }
+   
 }
 
-@media only screen and (min-width: 80em) {
-    .menu {
-        display: none;
-    }
+@media only screen and (max-width: 30em){
+    fieldset {
+    width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }  
 }
+
+
